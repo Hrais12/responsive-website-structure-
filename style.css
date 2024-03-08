@@ -1,0 +1,143 @@
+/* MediaQ: */
+
+
+/* MediaQ: */
+@media (max-width: 1280px) {
+    body{
+        background-color: green;
+    }
+    .secretsidebar{
+        border:solid purple;
+        width:15%;
+        display:block;
+    }
+    .one{
+        border:solid yellow;
+        width:33%;
+        display:block;
+    }
+    .two{
+        border:solid orange;
+        width:33%;
+        display:block;
+    }
+    .three{
+        border:solid salmon;
+        width:33%;
+        display:block;
+    }
+}
+/* ------------------------------------------------[Desktop] */
+@media (max-width: 880px) {
+    body{
+        background-color: peru;
+    }
+    .secretsidebar{
+        border:solid purple;
+        width:15%;
+        display:block;
+    }
+    .one{
+        border:solid yellow;
+        width:50%;
+        display:block;
+    }
+    .two{
+        border:solid orange;
+        width:50%;
+        display:block;
+    }
+    .three{
+        border:solid salmon;
+        width:33%;
+        display:none;
+    }
+}
+/* ------------------------------------------------[Tablet] */
+@media (max-width: 580px) {
+    body{
+        background-color: burlywood;
+    }
+    .secretsidebar{
+        border:solid purple;
+        width:25%;
+        display:none;
+    }
+    .one{
+        border:solid yellow;
+        width:100%;
+        display:block;
+    }
+    .two{
+        border:solid orange;
+        width:33%;
+        display:none;
+    }
+    .three{
+        border:solid salmon;
+        width:33%;
+        display:none;
+    }
+}
+/* ------------------------------------------------[Mobile] */
+.navContainer{
+ border:solid black;
+ border-width:.2px;
+ height:6vh;
+ margin:1em;
+ display:flex;
+ justify-content: space-around;
+ align-items: center;
+}
+.top{
+ border:solid black;
+ border-width:.2px;
+ height:42vh;
+ margin:1em;
+ display:flex;
+ justify-content: space-evenly;
+ margin:1em;
+}
+.middle{
+ border:solid black;
+ border-width:.2px;
+ /* height:42vh; */
+ margin:1em;
+ display:flex;
+}
+.bottom{
+     border:solid black;
+     border-width:.2px;
+     height:42vh;
+     margin:1em;
+}
+.logo{
+    /* border:solid red; */
+    height:100%;
+}
+.tagContainer{
+    border:solid plum;
+    width:60%;
+    display:flex;
+    justify-content: space-around;
+}
+.btnContainer{
+    /* border:solid seagreen; */
+    width:20%;
+    display: flex;
+    justify-content: flex-end;
+}
+.navTag{
+    border:solid black;
+    width:30%;
+    text-align:center;
+    font-size:12px;
+}
+.left-image{
+    border:solid white;
+    width:60%;
+}   
+.textbox{
+    border:solid lime;
+    width:40%;
+}  
